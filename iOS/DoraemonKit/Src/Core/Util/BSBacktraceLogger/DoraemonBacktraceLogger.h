@@ -14,10 +14,13 @@ NS_ASSUME_NONNULL_BEGIN
 #define DoraemonBSLOG_ALL NSLog(@"%@",[BSBacktraceLogger bs_backtraceOfAllThread]);
 
 @interface DoraemonBacktraceLogger : NSObject
-
+/// 获取所有线程的堆栈
 + (NSString *)doraemon_backtraceOfAllThread;
+/// 获取当前线程的堆栈
 + (NSString *)doraemon_backtraceOfCurrentThread;
+/// 获取主线程的堆栈
 + (NSString *)doraemon_backtraceOfMainThread;
+/// 获取指定线程的堆栈
 + (NSString *)doraemon_backtraceOfNSThread:(NSThread *)thread;
 
 @end

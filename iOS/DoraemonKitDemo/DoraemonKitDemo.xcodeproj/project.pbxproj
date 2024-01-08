@@ -15,7 +15,6 @@
 		09B042D126A8777900045D2A /* DoraemonDemoMultiConSwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B042D026A8777900045D2A /* DoraemonDemoMultiConSwipeGesture.m */; };
 		09B042D526A877ED00045D2A /* DoraemonDemoMultiConScreenEdgePanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B042D426A877ED00045D2A /* DoraemonDemoMultiConScreenEdgePanGesture.m */; };
 		09B042D926A8781A00045D2A /* DoraemonDemoMultiConTapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B042D826A8781A00045D2A /* DoraemonDemoMultiConTapGesture.m */; };
-		09D36E8A2733D2C9005174D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09D36E892733D2C9005174D4 /* Info.plist */; };
 		0A5399852349ED5B00C47CB3 /* DoraemonDemoMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5399842349ED5B00C47CB3 /* DoraemonDemoMemoryLeakViewController.m */; };
 		0A5399882349EE7E00C47CB3 /* DoraemonDemoMemoryLeakModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5399872349EE7E00C47CB3 /* DoraemonDemoMemoryLeakModel.m */; };
 		0A53998B2349EE9500C47CB3 /* DoraemonDemoMemoryLeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A53998A2349EE9500C47CB3 /* DoraemonDemoMemoryLeakView.m */; };
@@ -73,7 +72,6 @@
 		09B042D426A877ED00045D2A /* DoraemonDemoMultiConScreenEdgePanGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMultiConScreenEdgePanGesture.m; sourceTree = "<group>"; };
 		09B042D726A8781A00045D2A /* DoraemonDemoMultiConTapGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMultiConTapGesture.h; sourceTree = "<group>"; };
 		09B042D826A8781A00045D2A /* DoraemonDemoMultiConTapGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMultiConTapGesture.m; sourceTree = "<group>"; };
-		09D36E892733D2C9005174D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A5399832349ED5B00C47CB3 /* DoraemonDemoMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMemoryLeakViewController.h; sourceTree = "<group>"; };
 		0A5399842349ED5B00C47CB3 /* DoraemonDemoMemoryLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMemoryLeakViewController.m; sourceTree = "<group>"; };
 		0A5399862349EE7E00C47CB3 /* DoraemonDemoMemoryLeakModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMemoryLeakModel.h; sourceTree = "<group>"; };
@@ -316,7 +314,6 @@
 				DAC8A87A1FDE2C3B00F03E6F /* DoKitAppDelegate.h */,
 				DAC8A87B1FDE2C3B00F03E6F /* DoKitAppDelegate.m */,
 				DAC8A8831FDE2C3B00F03E6F /* Assets.xcassets */,
-				DAC8A8881FDE2C3B00F03E6F /* Info.plist */,
 				DAC8A8891FDE2C3B00F03E6F /* main.m */,
 				DAC0D76F1FE103A50048E322 /* DoraemonKitDemo-PrefixHeader.pch */,
 				0A6CF2782438BD3B00A2CBF4 /* DoraemonKitDemo.strings */,
@@ -547,6 +544,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-DoraemonKitDemo/Pods-DoraemonKitDemo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle",
 				"${PODS_ROOT}/GCDWebServer/GCDWebUploader/GCDWebUploader.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/pre-build/weex-main-jsfm.js",
 				"${PODS_ROOT}/WeexSDK/pre-build/weex-polyfill.js",
@@ -558,6 +556,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoraemonKit.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GCDWebUploader.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-main-jsfm.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-polyfill.js",

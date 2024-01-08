@@ -12,6 +12,7 @@
 
 #if __has_include(<CocoaLumberjack/CocoaLumberjack.h>)
 #import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack/DDLogMacros.h>
 #endif
 
 @interface DoraemonDemoLoggerViewController ()
